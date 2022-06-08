@@ -1,4 +1,8 @@
 'use strict'
+
+let name = prompt('Wendy');
+
+
 let armyVeteran = prompt('Did I serve in the military?');
 if (armyVeteran){
     console.log('')
