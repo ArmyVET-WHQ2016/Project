@@ -1,40 +1,48 @@
 'use strict'
 
-let name = prompt('Wendy');
+let userName = prompt("What is your name?");
+    while(!userName){
+    }
+        userName = prompt("What is your name?")
+            console.log("Loop has ended");
 
 
-let armyVeteran = prompt('Did I serve in the military?');
-if (armyVeteran){
-    console.log('')
+let veteran = prompt('Did I serve in the Armed Forces?');
+if (veteran) {
+    let service = prompt("US Army")
+    console.log("That's correct!");
 
- let irs = prompt('Do I have experience in federal government?');    
- if (irs){
+ let currentJob = prompt('Do I have experience in federal government?');    
+ if (irs) {
+     let employment = prompt ("IRS")
+     console.log("You got it!");
 
-    let degree = prompt('Do you have a in degree in Mathematics ?');
-    if (degree = ){
+    let levelOfEducation = prompt("Do you have a in degree in Mathematics?");
+    if (degree) {
+        let goal = prompt('Nurse Pracitational?")
+        console.log(" Good Answer!");
 
-        let nursePracititonal = prompt('Was becoming a truck driver on of my goals?');
-        if(nursePracitational){
-
-            let georgiaResident = prompt('Am I from Seattle, WA');
-            if(georgiaResident){
+            let currentLocation = prompt('Am I from Seattle, WA');
+            if(georgiaResident) {
+                let state = prompt ("Georgia")
+                console.log("The Peach State");
 
 
 } else {    
-    alert ('You are correct!')
-    console.log('')
-        if('') {
+    alert ("Try again!")
+    console.log("You can not proceed on");
+        if (confirm ("Was there any short term goals listed?") || confirm ("Was my employment provided for you?") {
+            
             }
-
 
         }
     }
  }
 }
 
-alert('You are incorrect!')
+alert("Sorry, Your input was incorrect. Please reread my bio again!")
 
 } else {
 
-alert('Great Job! ');
+alert("Great Job! Welcome to my site!");
 }
