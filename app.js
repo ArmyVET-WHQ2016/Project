@@ -8,6 +8,9 @@ alert('Welcome to the site ' + userName);
 
 console.log("Loop has ended");
 
+// let btn = document.getElementById("myButton");
+// btn.addEventListener("click",quiz,true);
+
 
 let score = 0;
 
