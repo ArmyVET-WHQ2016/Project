@@ -2,7 +2,7 @@ h1 {
     font-size: 50px;
     color: rgb(203, 30, 149);
     background-color: aquamarine;
-    margin-left:  auto;
+    margin-left: auto;
     margin-right: auto;
     border: 2px solid blue;
     width: 600px;
@@ -10,11 +10,23 @@ h1 {
 
 h2 {
     font-size: 25px;
-    color:rgb(203, 30, 149)
-    background-color blanchedalmond;
-    margin-left:  auto;
+    text-align: center;
+    color: rgb(203, 30, 149);
+    background-color: aquamarine;
+    margin-left: auto;
     margin-right: auto;
-    border: 2px solid aquamarine;
-    width: 350px;
+    border: 2px solid blue;
+    width: 300px;
+    padding: 4px
+}
 
+h3 {
+    font-size: 25px;
+    text-align: center;
+    color: rgb(203, 30, 149);
+    background-color: blanchedalmond;
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px solid blue;
+    width: 300px;
 }
